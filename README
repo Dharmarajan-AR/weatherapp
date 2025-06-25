@@ -1,0 +1,68 @@
+# Weather App 🌤️
+
+Hey there!  
+This is a simple yet handy real-time Weather App built using Python and Flask. It fetches live weather data for any city using the OpenWeatherMap API and shows you the temperature, humidity, wind speed, and even supports a dark mode for those late-night checks.  
+
+---
+
+## What it does
+
+- Shows you the current temperature, humidity, and wind speed of any city you search for.
+- Lets you switch between light and dark themes — because who doesn’t like a little night mode? 🌙
+- Updates data in real-time using the OpenWeatherMap API.
+
+---
+
+## How to get it running locally
+
+1. Clone this repo to your computer:
+   ```bash
+   git clone https://github.com/yourusername/weather-app.git
+   cd weather-app
+2. Install the required Python packages:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3. Get your own API key for OpenWeatherMap by signing up here: https://openweathermap.org/api
+
+4. Open app.py and replace the placeholder with your API key:
+
+python
+Copy
+Edit
+API_KEY = "your_api_key_here"
+5. Run the app:
+
+bash
+Copy
+Edit
+python app.py
+6. Open your browser and go to http://localhost:5000 to see the app in action!
+
+Tech Used
+Python with Flask for the backend
+
+HTML, CSS for the frontend, including dark mode support
+
+OpenWeatherMap API for live weather data
+
+Why I built this
+I wanted a quick and clean app that I could use to check weather info anytime without relying on bulky apps or websites. Plus, it was a great way to practice working with APIs and Flask.
+
+Check it out live
+You can see a live demo here (replace with your live link):
+https://weather-app.onrender.com
+
+Feedback and Contributions
+Feel free to open issues or submit pull requests if you want to improve the app or add features!
+
+About Me
+I’m Dharmarajan A R Python enthusiast and software developer.
+Github: https://github.com/Dharmarajan-AR
+
+
+
+
+
